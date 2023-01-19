@@ -1,0 +1,57 @@
+body{
+    margin: 10px 25px;    
+}
+
+.livraria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 0px;
+       
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px;    
+    border-radius: 5px;
+    margin: 15px 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 50%;
+    height: 210px;
+    margin: 10px;
+}
+
+.desconto {
+    background: rgb(108, 201, 71);
+    margin: -19px 0px 5px;
+    height: 45px;        
+    font-size: larger;
+    font-weight: bold;        
+    color: rgb(255, 255, 255);     
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.p{
+    margin: 10px;
+    text-align: center;
+}
+p{
+    margin: 15px 10px -5px;
+    text-align: start;
+}
+.de{
+    font-size: small;
+    color: gray;
+}
+
+footer{
+    margin: 30px 40% 0px;
+    color: gray;
+}
+
+
